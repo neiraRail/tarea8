@@ -185,7 +185,7 @@ public class test {
    }
 
     @Test
-    public void test3(){
+    public void test3() {
         System.out.println("Test 3 Prestamo y devolución de un ejeplar \n");
         Biblioteca bibliotecaEscolar=new Biblioteca();
         bibliotecaEscolar.agregarLibrero("Europeo");

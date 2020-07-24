@@ -29,7 +29,7 @@ class Librero {
         Ejemplar ejemplarLibrero;
         for(int i = 0; i< ejemplars.size(); i++){
            ejemplarLibrero= ejemplars.get(i);
-           if(ejemplarLibrero.getTitulo()==tituloBuscado && ejemplarLibrero.getAutor()==autorBuscado && ejemplarLibrero.isEnBiblioteca() ){
+           if(ejemplarLibrero.getTitulo().equals(tituloBuscado) && ejemplarLibrero.getAutor().equals(autorBuscado) && ejemplarLibrero.isEnBiblioteca() ){
                return ejemplarLibrero;
            }
         }
@@ -48,7 +48,7 @@ class Librero {
         Ejemplar ejemplarLibrero;
         for(int i = 0; i< ejemplars.size(); i++){
             ejemplarLibrero= ejemplars.get(i);
-            if(ejemplarLibrero.getTitulo()==tituloBuscado && ejemplarLibrero.getAutor()==autorBuscado && !ejemplarLibrero.isEnBiblioteca()){
+            if(ejemplarLibrero.getTitulo().equals(tituloBuscado) && ejemplarLibrero.getAutor().equals(autorBuscado) && !ejemplarLibrero.isEnBiblioteca()){
                 return ejemplarLibrero;
             }
         }
@@ -108,12 +108,13 @@ class Librero {
     /**
      * Itera por los Ejemplares en el librero y los muestra por consola
      * */
-    void MostrarEjemplares(){
-        System.out.println("\n      Librero: "+getNombre());
-
+    String MostrarEjemplares(){
+        StringBuilder ejemplares = new StringBuilder();
+        ejemplares.append("      Librero: ").append(getNombre()).append("\n");
         for(int i = 0; i< ejemplars.size(); i++){
-            System.out.println((i+1)+")  "+ ejemplars.get(i).toString());
+            ejemplares.append(i + 1).append(")  ").append(ejemplars.get(i).toString()).append("\n");
         }
+        return ejemplares.toString();
     }
 
     String getNombre() {

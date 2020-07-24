@@ -19,13 +19,19 @@ public class Ficha {
     }
 
     void print(){
-        String string="-----------------------------------------Ficha------------------------------------------------"+
-                "\nNúmero ficha:"+id+
-                "\nEstudiante: "+estudiante.getNombre()+"     Curso: "+estudiante.getCurso()+
-                "\nDetalles del Ejemplar:\n   "+ejemplar.toString()+"Librero:"+librero.getNombre()+
-                "\nFecha de Prestamo: "+fechaPrestamo+
-                "\nFecha de devolucion: "+ fechaDevolucion+"\n-----------------------------------------------------------------------------------------------";
-        System.out.println(string);
+        try {
+            String string="-----------------------------------------Ficha------------------------------------------------"+
+                    "\nNúmero ficha:"+id+
+                    "\nEstudiante: "+estudiante.getNombre()+"     Curso: "+estudiante.getCurso()+
+                    "\nDetalles del Ejemplar:\n   "+ejemplar.toString()+"Librero:"+librero.getNombre()+
+                    "\nFecha de Prestamo: "+fechaPrestamo+
+                    "\nFecha de devolucion: "+ fechaDevolucion+
+                    "\n---------------------------------------------------------------------------------------------------";
+            System.out.println(string);
+
+        }catch (NullPointerException n){
+            System.out.print("No hay ficha!");
+        }
 
     }
 

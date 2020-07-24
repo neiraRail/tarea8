@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b74dd57-e93e-4ea1-aa92-d3b6758f626e" name="Default Changelist" comment="" />
+    <list default="true" id="4b74dd57-e93e-4ea1-aa92-d3b6758f626e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Biblioteca.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Biblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ejemplar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ejemplar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ficha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ficha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Librero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Librero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Biblioteca.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Biblioteca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Ejemplar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Ejemplar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Ficha.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Ficha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Librero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Librero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Biblioteca.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -25,8 +43,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1dn9KWtSbwUeoezBIrdtYoBImZp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/indice/ED_PRUEBA_01_v2" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -41,12 +61,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.test.test4">
+  <component name="RunManager" selected="JUnit.test.test3">
     <configuration name="test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Biblioteca" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="test" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Biblioteca" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,23 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Biblioteca" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="testing" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test.test4" />
         <item itemvalue="JUnit.test.test3" />
+        <item itemvalue="JUnit.test.test4" />
+        <item itemvalue="JUnit.test.test2" />
         <item itemvalue="JUnit.test.test1" />
         <item itemvalue="JUnit.test.test5" />
-        <item itemvalue="JUnit.test.testing" />
       </list>
     </recent_temporary>
   </component>
@@ -114,5 +134,16 @@
       <updated>1593049926667</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

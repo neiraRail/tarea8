@@ -15,8 +15,12 @@ public class Ejemplar extends Libro {
     }
 
     private String Estado(){
-        if(isEnBiblioteca()==true){return "DISPONIBLE";}
+        if(isEnBiblioteca()) {
+            return "DISPONIBLE";
+        }
+        else{
         return "NO DISPONIBLE";
+        }
     }
 
     boolean isEnBiblioteca() {
@@ -25,5 +29,9 @@ public class Ejemplar extends Libro {
 
     void setEnBiblioteca(boolean enBiblioteca) {
         this.EnBiblioteca = enBiblioteca;
+    }
+
+    public boolean getEstado(){
+        return EnBiblioteca;
     }
 }
